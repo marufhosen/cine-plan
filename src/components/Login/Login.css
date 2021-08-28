@@ -1,0 +1,56 @@
+.input-form {
+  width: 95%;
+  margin: auto;
+  border: 1px solid #7626a6;
+  text-align: center;
+  padding: 10px;
+  margin-top: 60px;
+}
+
+.create-account {
+  color: #5b0091;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+input[type="text"],
+select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type="password"],
+select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 70%;
+  background-color: #7626a6;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #5b0091;
+}
+
+@media (min-width: 768px) {
+  .input-form {
+    width: 50%;
+  }
+}

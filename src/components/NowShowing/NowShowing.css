@@ -1,0 +1,29 @@
+.now-showing-title {
+  text-align: center;
+  margin: 50px;
+}
+.now-playing {
+  display: grid;
+  grid-gap: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.showing-img:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s;
+}
+@media (min-width: 600px) {
+  .now-playing {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 786px) {
+  .now-playing {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (min-width: 991px) {
+  .now-playing {
+    grid-template-columns: repeat(4, auto);
+  }
+}

@@ -1,0 +1,12 @@
+.navBar {
+  background-color: #f2ffff;
+}
+.nav-item {
+  text-decoration: none;
+  margin-left: 30px;
+  color: #5b0091;
+  line-height: 2;
+}
+.user-avatar{
+  margin-left: 10px;
+}

@@ -1,0 +1,25 @@
+.up-comming-movie-title {
+  text-align: center;
+  margin: 50px;
+}
+.upcomming-movie {
+  display: grid;
+  grid-gap: 30px;
+  padding: 10px;
+  text-align: center;
+}
+@media (min-width: 600px) {
+  .upcomming-movie {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+@media (min-width: 786px) {
+  .upcomming-movie {
+    grid-template-columns: repeat(3, auto);
+  }
+}
+@media (min-width: 991px) {
+  .upcomming-movie {
+    grid-template-columns: repeat(4, auto);
+  }
+}
